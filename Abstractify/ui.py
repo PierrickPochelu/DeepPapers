@@ -10,7 +10,8 @@ from typing import Tuple, Optional, Callable
 ##########################
 
 # OpenAI prompt
-OPENAI_API_KEY = "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"
+import os
+OPENAI_API_KEY = os.environ["OPENAI_API_KEY"] # <--- put your key
 
 # scikit-learn model
 with open(f"/tmp/model.pkl", 'rb') as f:

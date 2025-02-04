@@ -43,6 +43,8 @@ Once the user configures the model and uploads PDF files, it performs two main t
 * Text Classification: Classifies the content of the PDF file based on the pre-trained machine learning models.
 * Text Summarization: Summarizes the content of the PDF using summarization models.
 
+For using LLM auto prompting please set your env variable such as `OPENAI_API_KEY=<YOUR-SECRET-KEY>`.
+
 ## ResearchGrab (offline)
 
 
